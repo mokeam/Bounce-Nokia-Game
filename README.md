@@ -9,7 +9,7 @@ We have implemented this game similar to the above description of the original N
 
 The Live Demo Link for our version of bounce game can be found here:
 
-https://sapienzainteractivegraphicscourse.github.io/finalproject-ymcube-team/
+https://mokeam.github.io/Bounce-Nokia-Game/
 
 ## Technology
 * ThreeJs (3D Computer Graphics)
