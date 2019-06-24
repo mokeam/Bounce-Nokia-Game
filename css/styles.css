@@ -1,0 +1,101 @@
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica';
+}
+
+#instructions {
+    background-color: teal;
+    opacity: 0.75;
+    color: white;
+    text-align: center;
+    padding: 32px;
+    margin: 0px;
+    display: inline;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+#lives {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    padding: 4px;
+    color: red;
+    font-weight: bold;
+}
+#score {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    padding: 4px;
+    color: yellow;
+    font-weight: bold;
+}
+#gameover{
+    margin-left: 60vh;
+    margin-right: 100vh;
+    margin-top:15vh;
+    display: none;
+}
+#help {
+    position: absolute;
+    left: 2px;
+    bottom: 20px;
+    padding: 4px;
+    color: white;
+}
+#try{
+    margin-left: 90vh;
+    margin-right: 100vh;
+    margin-top:2vh;
+    border:none;
+    padding:20px;
+    border-radius: 4px;
+    color:white;
+    background-color: green;
+    display: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+#totalscore{
+    position: absolute;
+    margin-left: 80vh;
+    margin-right: 100vh;
+    margin-top:-40vh;
+    color:red;
+    padding: 20px;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 1.5em;
+    white-space: nowrap;
+    opacity: 0.5;
+    display:none;
+}
+
+#level {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    padding: 4px;
+    color: turquoise;
+    font-weight: bold;
+}
+
+#mute_button {
+  background: rgb(66, 184, 221);
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 125%;
+  width: 150%;
+}
+
+div#volume {
+    position: absolute;
+    margin-left: 3vh;
+    margin-right: 100vh;
+    margin-top:15vh;
+    color: turquoise;
+    font-weight: bold;
+}

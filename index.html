@@ -1,0 +1,52 @@
+<html>
+    <head>
+    <title>Bounce Game</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <div id='instructions'>
+            How to play Bounce:
+            <br><br>
+            Use the arrow keys to move the ball and find the exit to the maze.
+            <br><br>
+            Control: a,d,s,w
+        </div>
+
+        <div id='help'>
+            Hold down the 'H' key for game instructions.
+        </div>
+
+        <div id='level'>
+            Level: 1
+        </div>
+
+        <div id='lives'>
+            Lives:
+        </div>
+
+        <div id='score'>
+            Score:
+        </div>
+        <div id="endgame">
+            <img id="gameover" src="img/gameover.jpg" style="width:100%;max-width:500px"/>
+            <button id="try">Try again</button>
+            <div id="totalscore">
+                Total Score:
+            </div>
+        </div>
+        
+        <div id="volume">
+          <button id='mute_button'>
+              <img id="show_volume" src="./img/unmute.png">
+              <img id="show_mute" style="display:none" src="./img/mute.png">
+          </button>
+        </div>
+
+        <script src="js/Box2dWeb.min.js"></script>
+        <script src="js/Three.js"></script>
+        <script src="js/keyboard.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/maze.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
