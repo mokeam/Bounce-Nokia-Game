@@ -26,4 +26,4 @@ https://sapienzainteractivegraphicscourse.github.io/finalproject-ymcube-team/
 * Google Chrome
 
 ## Documentation
-https://github.com/SapienzaInteractiveGraphicsCourse/finalproject-ymcube-team/blob/master/Documentation.pdf
+https://github.com/mokeam/Bounce-Nokia-Game/blob/master/Documentation.pdf
